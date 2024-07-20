@@ -1,0 +1,63 @@
+/* Reset margins and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Basic styling for the body */
+body {
+    font-family: 'Arial', sans-serif; /* Sets the font family */
+    line-height: 1.6;
+    color: #333; /* Dark grey text color for better readability */
+    background-color: #f4f4f4; /* Light grey background */
+    padding: 20px; /* Padding around the content of the page */
+}
+
+/* Header styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navigation menu styles */
+nav {
+    display: flex;
+    justify-content: center;
+    background: #444;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    background: white;
+    margin-top: 20px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#__framer-badge-container {
+    display: none !important;
+}
